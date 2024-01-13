@@ -1,0 +1,11 @@
+{
+  "name": "rspack-css-modules-typescript-loader",
+  "version": "1.0.0",
+  "description": "rspack loader to create TypeScript declarations for CSS Modules",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": ["rspack"],
+  "author": "BlInYo",
+  "license": "MIT",
+  "devDependencies": {}
+}
