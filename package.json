@@ -1,8 +1,15 @@
 {
   "name": "rspack-css-modules-typescript-loader",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "rspack loader to create TypeScript declarations for CSS Modules",
   "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BlInYo/rspack-css-modules-typescript-loader"
+  },
+  "bugs": {
+    "url": "https://github.com/BlInYo/rspack-css-modules-typescript-loader/issues"
+  },
   "scripts": {},
   "keywords": [
     "rspack"
