@@ -1,3 +1,15 @@
+/**
+ * The following code is modified based on
+ * https://github.com/seek-oss/css-modules-typescript-loader
+ *
+ * only generator .d.ts for css modules file
+ *
+ * MIT Licensed
+ * Author mattcompiles
+ * Copyright 2018 SEEK
+ * https://github.com/seek-oss/css-modules-typescript-loader/blob/master/LICENSE
+ */
+
 const path = require('path')
 const fs = require('fs')
 const lineDiff = require('line-diff')

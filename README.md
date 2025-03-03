@@ -1,9 +1,18 @@
 # rspack-css-modules-typescript-loader
-这是一个rspack的loader，用于自动生成*.module.less的类型声明
-此loader参考(copy)了社区已有的loader [css-modules-typescript-loader](https://github.com/seek-oss/css-modules-typescript-loader)
-对其中的正则进行了修改，选择在less-loader运行前执行（是否有问题还存疑），放弃对css-loader的依赖对于css交由rspack处理
+
+这是一个 rspack 的 loader，用于自动生成\*.module.less 的类型声明
+此 loader 参考(copy)了社区已有的 loader [css-modules-typescript-loader](https://github.com/seek-oss/css-modules-typescript-loader)
+对其中的正则进行了修改，选择在 less-loader 运行前执行（是否有问题还存疑），放弃对 css-loader 的依赖对于 css 交由 rspack 处理
 
 #### 使用
+
+Install:
+
+```bash
+pnpm add rspack-css-modules-typescript-loader --save-dev
+```
+
+Add plugin your rspack.config.ts
 
 ```js
 {
@@ -25,6 +34,7 @@
 ```
 
 #### 配置(options)
+
 ```ts
 Options = {
   /**
@@ -45,3 +55,11 @@ Options = {
   banner: string
 }
 ```
+
+#### Credits
+
+The loader was forked from seek-oss/css-modules-typescript-loader.
+
+#### License
+
+MIT.
